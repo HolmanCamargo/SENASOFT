@@ -28,9 +28,6 @@
 
             <div class="menu">
                 <a href="{{ route('cajero.index') }}" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
-                    Cliente</a>
-
-                <a href="{{ route('cajero.venta') }}" class="d-block text-light p-3 border-0"><i class="fas fa-clock"></i>
                     Venta</a>
 
                
@@ -50,9 +47,7 @@
               </button>
                 <nav class="nav nav-pills flex-column flex-sm-row ">
                    <a class="flex-sm-fill text-sm-center nav-link active" href="{{ route('cajero.index') }}">Cajero</a>
-                   <a class="flex-sm-fill text-sm-center nav-link" href="#">Bodeguero</a>
-                   <a class="flex-sm-fill text-sm-center nav-link" href="#">Proveedor</a>
-                   <a class="flex-sm-fill text-sm-center nav-link" href="#">Administrador</a>
+                   
                 </nav>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               
@@ -77,7 +72,56 @@
             </div>
           </nav>
           <!-- Fin Navbar -->
+          <!-- Main content -->
+<div class="content ">
+  <div class="container-fluid ">
 
+  <div class="row justify-content-center ">
+    <div class="card card-navy card-outline shadow col-md-4">
+      <div class="card-header">
+        <h3 class="card-title">{{__('Add Type Loan')}}</h3>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body ">
+
+        
+
+          <label for="tmosNombre">Nombre:</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">
+                <i class="far fa-keyboard"></i>
+              </span>
+            </div>
+            
+          </div>
+
+          
+          <label for="tmosEstado">Estado:</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">
+                <i class="far fa-keyboard"></i>
+              </span>
+            </div>
+           
+            
+          </div>
+          
+              
+      </div>
+  
+      <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+  </div>  
+  </div>
+</div>
+
+<!-- /.row -->
+<!-- /.container-fluid -->
+
+<!-- /.content -->
        
 
     <!-- Optional JavaScript -->
